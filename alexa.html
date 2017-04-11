@@ -18,8 +18,22 @@
           <div class="col-md-8">
             <h1 align="center" style="font-family:Impact">Pittsburgh Crime Analysis</h1>
             <div class="fancy" style= 'margin-bottom: 25px;'> 
-            <p>Put stuff here.</p>
-            </div>
+            <p>Our group decided to analyze and visualize Pittsburgh Police Arrest Data found on the Western Pennsylvania Regional Data Center’s website. There is a whole bunch of data in the CSV on their site, and we wanted to represent as much of it as we could so viewers could compare crimes by things like age, rage, gender, and neighborhood. We also wanted the graph(s) to be hoverable, so you could get more information about each category by hovering the mouse over the bars/points.</p>
+		    
+	    <p>At first, I was very nervous for this team project as I didn’t think I would have any skills <strike>(at all)</strike> to offer to my team. Once we started divvying up responsibilities, however, I felt more at ease knowing that I had knowledge to contribute to the group — funnily enough, the thing that I struggled the most with during the synthesis assignments (transforming CSV data into a “usable” form to use in Python) was exactly what I did for this project! <i>Wild.</i></p>
+            
+	    <p>To do this, I first imported pandas and opened the CSV file into Jupyter (another small victory for me!) and made the columns that we wanted to utilize for our viz and made them into lists. We realized the time of arrest included both the date and the time of day, so I was able to split the times on the slashes so Emery could utilize both pieces of information better.</p>
+
+	    <p>Ideally, we wanted to include things like average age by neighborhood and more separated gender data to break it up more and give some additional facets to our project, but I was unable to do these things. I think I got about halfway but kept running into errors, which you can see in the .ipynb file in our Github repository. I think the graphs would have been too junky with additional information, though, so maybe it’s good that we ended up not including these things. (You can also see, especially on the scatter plot, that there are some points with age “0,” A.K.A. there was no age data for that person. In a more functional version of this project I should have removed the points with “0” age.)</p>  
+		
+	    <p>As you can see on the home page, we were able to come up with a scatter plot, a stacked bar plot, and a world map view of the arrest data. On both graphs, the x-axis shows the neighborhood in which the arrest was made and the y-axis shows the age of the person who committed the crime. If you hover over the dots/bars, you can get more details about the arrests, such as the specific crime(s) committed. You are also able to sort the data by gender and race, which I think is super cool and allows for comparison across these categories, which is especially interesting with current world events — like the most recent election.</p>
+		   
+	    <p>The last representation, the map, shows users the arrests based on the latitudes and the longitudes from the data set, though they are a bit clustered together since the data is just from Allegheny County and they are displayed on a world map.</p>  
+		    
+	    <p>I think we worked really well as a team and I hope everybody feels the same. I feel comfortable with the way we split up work; to me it seems like everyone made an important contribution and played to their own strengths. I normally don’t like team projects, but this one was very easy-going and actually exciting to work on (thanks to the interesting content and awesome team members).</p>
+		    
+	    <p>These data visualizations should prove interesting to any Pittsburgh natives/residents; while it makes it seem like crime is very prevalent in Pittsburgh/the County — at least to me — this dataset includes a variety of arrests, from petty retail theft to assault to drug-related crimes, so the representations must be taken with a grain of salt (the journalist in me is very sorry for the cliché).</p>
+	</div>
               
 
 
